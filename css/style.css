@@ -245,6 +245,7 @@ line-height:33px;
 	box-shadow:0px 0px 10px rgba(0,0,0,0.5);
 	border:3px solid transparent;
 	margin:20px 0px;
+	min-height: 180px;
 }
 .grid-6 .item:hover{
 	border:3px solid #0250b4;
@@ -252,18 +253,19 @@ line-height:33px;
 .item .image{
 	float:left;
 	overflow:hidden;
-	width:145px;
+	width: 160px;
 	margin-right:20px;
 }
 .item .desc{
 	color:#444;
-	
+	float: left;
+width: 60%;
 }
 .item .desc h3{
-	font-size:13px;
+	font-size:14px;
 }
 .item .desc p{
-	margin-top:10px;
+	margin-top:12px;
 }
 .item .desc a.more{
 	display:block;
