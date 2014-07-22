@@ -318,6 +318,9 @@ display: inline-block;
 vertical-align: top;
 border-radius:10px;
 }
+.grid-12 .item a {
+text-decoration: none;
+}
 .grid-12 .item:hover{
 	background:#FFF1E8;
 }
@@ -332,14 +335,16 @@ text-align: center;
 .item .desc{
 	color:#444;
 	border-right: 1px solid #FDD7B4;
+	min-height: 180px;
 }
 .item  h3{
 	font-size:14px;
 	text-align: center;
 	text-transform: uppercase;
-font-weight: 300;
+font-weight: 700;
 	display:block;
 	min-height:56px;
+	color:#000;
 }
 .more{
 	margin-top:10px;
@@ -389,7 +394,11 @@ border-bottom: 2px solid #FF7D05;
 	-moz-border-radius:3px;
 	margin-bottom:20px;
 	margin-right:20px;
+	border:2px solid transparent;
 	}
+.main-grey .box .solution:hover{
+	border:2px solid #FF7D05;
+}
 .box .solution .image-circle{
 	width:80px;
 	height:80px;
