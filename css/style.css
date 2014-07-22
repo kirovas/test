@@ -383,6 +383,10 @@ border-bottom: 2px solid #FF7D05;
 .main-grey .box{
 	padding:0px 70px;
 }
+.main-grey .box a{
+	display:block;
+	text-decoration:none;
+}
 .main-grey .box .solution{
 	background:#fff;
 	overflow:hidden;
