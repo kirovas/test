@@ -282,7 +282,12 @@ padding: 5px 10px;
 .grid-12 .box-l{
 	padding-left:10px;
 }
-
+.box-p{
+	font-size:14px;
+	text-align:center;
+	line-height: 25px;
+margin: 5px 0px;
+}
 .grid-12 .box-r{
 	padding-left:10px;
 }
@@ -319,7 +324,7 @@ vertical-align: top;
 border-radius:10px;
 }
 .direct .item{
-	width: 315px;
+	width: 234px;
 }
 .grid-12 .item a {
 text-decoration: none;
