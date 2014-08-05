@@ -313,18 +313,38 @@ border-radius:10px;
 	background:#fff;
 	padding:3px;
 }
+.border-i {
+display: inline-block;
+border:2px solid transparent;
+margin: 20px 10px 20px 0px;
+border-radius:10px;
+box-sizing:border-box;
+}
 .grid-12 .item{
 
 padding:10px 0px;
-margin: 20px 10px 20px 0px;
-min-height: 180px;
-width: 234px;
+box-sizing:border-box;
+min-height: 410px;
+width: 230px;
 display: inline-block;
 vertical-align: top;
 border-radius:10px;
 }
 .direct .item{
-	width: 234px;
+	width: 230px;
+	border: 1px solid #0250b4;
+}
+.direct .border-i:hover{
+	border: 2px solid #0250b4;
+}
+.border-i:hover .item{
+	border:1px solid transparent;
+}
+.post .border-i:hover{
+	border: 2px solid #FF7D05;
+}
+.post .item{
+	border: 1px solid #FF7D05;
 }
 .grid-12 .item a {
 text-decoration: none;
