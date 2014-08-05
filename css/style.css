@@ -292,14 +292,14 @@ margin: 5px 0px;
 	padding-left:10px;
 }
 div.grid-12.direct {
-border: 1px solid #0250b4;
+border-top: 1px solid #0250b4;
 margin-bottom:30px;
-border-radius:10px;
+
 }
 div.grid-12.post {
-border: 1px solid #FF7D05;
+border-top: 1px solid #FF7D05;
 margin-bottom:20px;
-border-radius:10px;
+
 }
 .grid-12 h2{
 	font-size:25px;
@@ -349,8 +349,11 @@ border-radius:10px;
 .grid-12 .item a {
 text-decoration: none;
 }
-.grid-12 .item:hover{
-	background:#FFF1E8;
+.direct .item:hover{
+	background:#EFF3F5;
+}
+.post .item:hover{
+	background:#FFF2E2;
 }
 .item .image {
 /* float: left; */
