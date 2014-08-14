@@ -82,7 +82,7 @@ label {}
  
 /* ------------------------- Layout */
  .header{
-	height:140px;
+	height:120px;
 	padding:20px 0px;
 	font-family: 'Roboto', sans-serif;
 	
@@ -635,7 +635,7 @@ ul.social li a{
 	border:2px solid #0250b4;
 	border-radius:5px;
 }
-.d-item-block a{
+.d-item-block span{
 	color:#0250b4;
 	font-size:13px;
 	font-weight:bold;
@@ -732,7 +732,7 @@ ul.social li a{
 	text-decoration:underline;
 }
 .sidebar-nav li.active ul li a:hover{
-	color:#444;
+	color: #FF7D05;
 	text-decoration:none;
 }
 .sidebar-nav li.active ul li ul{
@@ -744,8 +744,8 @@ ul.social li a{
 	width:280px;
 	border:2px solid #0250b4;
 	z-index:999;
-left: 104%;
-top: 0px;
+left: 100%;
+top: -25px;
 	border-radius:5px;
 }
 .sidebar-nav li.active ul li.drop-left > a{
