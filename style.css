@@ -1,0 +1,68 @@
+.map{background:url('images/map.png')no-repeat center center;width:100%;min-height:540px;position:relative;
+		
+	}
+	.user{position:absolute;width:60px;height:60px;cursor:pointer;}
+	.user:hover .info{
+		display:block;
+		visibility:visible;
+		opacity:1;
+		-webkit-transition: all 0.1s ease-in-out;
+-moz-transition: all 0.1s ease-in-out;
+-o-transition: all 0.1s ease-in-out;
+transition: all 0.1s ease-in-out;
+	}
+	.info{
+	display:none;
+	opacity:0;
+	visibility:hidden;
+		position:absolute;
+		width:195px;
+		box-sizing:border-box;
+		background:#fff;
+		padding:10px 15px;
+		z-index:3;
+		top: -25px;
+left: 70px;
+-webkit-transition: all 0.1s ease-in-out;
+-moz-transition: all 0.1s ease-in-out;
+-o-transition: all 0.1s ease-in-out;
+transition: all 0.1s ease-in-out;
+	}
+	.info:after{
+	content:'';
+	position:absolute;
+	left:-10px;
+	top:45%;
+		width: 0;
+height: 0;
+border-style: solid;
+border-width: 5px 10px 5px 0;
+border-color: transparent #ffffff transparent transparent;
+	}
+	.info p{font-size:12px;color:#595959;font-family:'Arial', sans-serif;}
+	.info p i.fa{color:#3bb848;font-size:20px;margin-right:20px;float:left;overflow:hidden;}
+	#user-1{top: 12%;left: 49%;}/*  Киев */
+	#user-2{top: 36%;left: 16%;}/* Ужгород */
+	#user-3{top: 26%;left: 21%;}/* Ив. Франковск */
+	#user-4{top: 36%;left: 26%;}/* Черновцы */
+	#user-5{top: 15%;left: 16%;}/*  Львов */
+	#user-6{top: 3%;left: 23%;}/*  Луцк */
+	#user-7{top: 4%;left: 30%;}/*  Ровно */
+	#user-8{top: 19%;left: 31%;}/*  Хмельницкий */
+	#user-9{top: 29%;left: 26%;}/*  Тернополь */
+	#user-10{top: 5%;left: 37%;}/*  Житомир */
+	#user-11{top: 34%;left: 36%;}/*  Винница */
+	#user-12{top: 52%;left: 44%;}/*  Одесса */
+	#user-13{top: 50%;left: 50%;}/*  Николаев */
+	#user-14{top: 8%;left: 53%;}/*  Чернигов */
+	#user-15{top: 20%;left: 57%;}/*  Полтава */
+	#user-16{top: 27%;left: 70%;}/*  Харьков */
+	#user-17{top: 7%;left: 58%;}/* Сумы */
+	#user-18{top: 27%;left: 81%;}/*  Луганск */
+	#user-19{top: 26%;left: 47%;}/*  Черкасы */
+	#user-20{top: 37%;left: 55%;}/*  Кировоград */
+	#user-21{top: 35%;left: 76%;}/* Донецк */
+	#user-22{top: 38%;left: 70%;}/*  Днепропетровск */
+	#user-23{top: 53%;left: 70%;}/*  Запорожье */
+	#user-24{top: 57%;left: 61%;}/*  Херсон */
+	#user-25{top: 74%;left: 62%;}/*  Симферополь */
