@@ -329,9 +329,12 @@ margin: 20px 10px 20px 0px;
 border-radius:10px;
 box-sizing:border-box;
 vertical-align: top;
+zoom: 1;
+    *display: inline;
 }
 .grid-12 .item{
-
+zoom: 1;
+    *display: inline;
 padding:10px 0px;
 box-sizing:border-box;
 min-height: 410px;
@@ -340,7 +343,7 @@ display: inline-block;
 vertical-align: top;
 border-radius:10px;
 }
-.direct a{display:block;}
+.direct a{display: inline-block;zoom: 1;*display: inline;}
 .direct .item{
 	width: 230px;
 	border: 1px solid #0250b4;
