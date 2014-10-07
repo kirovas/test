@@ -340,6 +340,7 @@ display: inline-block;
 vertical-align: top;
 border-radius:10px;
 }
+.direct a{display:block;}
 .direct .item{
 	width: 230px;
 	border: 1px solid #0250b4;
